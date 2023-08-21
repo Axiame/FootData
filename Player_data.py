@@ -41,3 +41,26 @@ for index, row in enumerate(data_rows):
 # Imprimer le dictionnaire complet
 print(stats_dict)
 print(len(stats_dict))
+#afficher toutes les clés du dictionnaire
+print(stats_dict.keys())
+# Parcourir le dictionnaire de statistiques
+del(stats_dict[''])
+for stat_name, stat_value in stats_dict.items():
+    if "%" in stat_value:
+        stat_value = stat_value.replace("%", "")
+        stat_value = float(stat_value) / 100  # Convertir en décimal
+        stats_dict[stat_name] = stat_value  # Mettre à jour la valeur dans le dictionnaire
+
+for stat_name, stat_value in stats_dict.items():
+    try:
+        stat_value = float(stat_value)
+        stats_dict[stat_name] = stat_value
+    except ValueError:
+        print("Impossible de convertir la valeur en nombre flottant", stat_name)
+# Imprimer le dictionnaire mis à jour
+print(stats_dict)
+for stat_value in stats_dict.values():
+    print(type(stat_value))
+
+
+
