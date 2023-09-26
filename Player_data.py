@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 #url = "https://fbref.com/fr/joueurs/0d7b6576/scout/365_m1/Rapport-de-scouting-Elye-Wahi"
 url = "https://fbref.com/fr/joueurs/21a66f6a/scout/365_m1/Rapport-de-scouting-Harry-Kane"
 # Envoyer une requête et récupérer le contenu HTML
-response = requests.get(url)
+response = requests.get(url, verify=False)
 html_content = response.content
 
 # Analyser le contenu HTML avec Beautiful Soup
