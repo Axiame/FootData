@@ -1,7 +1,5 @@
-ligue1= "https://fbref.com/fr/comps/13/Statistiques-Ligue-1"
-pleague = "https://fbref.com/fr/comps/9/Statistiques-Premier-League"
-bundesliga = "https://fbref.com/fr/comps/20/Statistiques-Bundesliga"
-serieA = "https://fbref.com/fr/comps/11/Statistiques-Serie-A"
-liga = "https://fbref.com/fr/comps/12/Statistiques-La-Liga"
+league_dict = {"Ligue 1": "13", "Premier League": "9", "Bundesliga": "20", "Serie A": "11", "La Liga": "12"}
+ligue= "https://fbref.com/fr/comps/"
+#url vers la page de ligue : https://fbref.com/fr/comps/20/ cf league_dict
 
 

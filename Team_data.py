@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 # L'URL de la page que vous souhaitez scraper
 url = "https://fbref.com/fr/equipes/054efa67/Statistiques-Bayern-Munich"
-url = "https://fbref.com/fr/equipes/e2d8892c/Statistiques-Paris-Saint-Germain"
+#url = "https://fbref.com/fr/equipes/e2d8892c/Statistiques-Paris-Saint-Germain"
 
 # Envoyer une requête GET pour récupérer la page
 response = requests.get(url, verify=False)
