@@ -59,8 +59,7 @@ for stat_name, stat_value in stats_dict.items():
         print("Impossible de convertir la valeur en nombre flottant", stat_name)
 # Imprimer le dictionnaire mis à jour
 print(stats_dict)
-for stat_value in stats_dict.values():
-    print(type(stat_value))
+
 
 
 
