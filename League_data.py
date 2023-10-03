@@ -225,6 +225,5 @@ def scrape_team_urls_Liga():
     # Renvoyer la liste des URLs
     return team_urls
 
-print(scrape_team_urls_Liga())
 
 
