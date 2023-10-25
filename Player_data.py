@@ -54,5 +54,5 @@ def scrape_player_stats(url):
             print("Impossible de convertir la valeur en nombre flottant", stat_name)
 
     return stats_dict  # Retourner le dictionnaire des statistiques
-
+print(scrape_player_stats("https://fbref.com/en/players/810e3c74/Jesse-Lingard"))
 

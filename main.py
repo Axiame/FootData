@@ -1,7 +1,7 @@
 import League_data
 import Team_data
 import Player_data
-import psycopg2
+
 
 url_pl = League_data.scrape_team_urls_PL()
 url_bl = League_data.scrape_team_urls_Bundesliga()
